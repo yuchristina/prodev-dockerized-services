@@ -1,0 +1,17 @@
+{
+  "name": "hrprodev-dockerized-auth-service",
+  "version": "1.0.0",
+  "description": "An authentication service to learn Dockerization.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hack Reactor Professional Development",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "private": true
+}
